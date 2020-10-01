@@ -1,0 +1,129 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "scala-tour-example",
+        "directory": "/Users/a13156/.go/src/github.com/jun06t/scala-practice/scala-tour-example",
+        "workspaceDir": "/Users/a13156/.go/src/github.com/jun06t/scala-practice/scala-tour-example",
+        "sources": [
+            "/Users/a13156/.go/src/github.com/jun06t/scala-practice/scala-tour-example/src/main/scala-2.12",
+            "/Users/a13156/.go/src/github.com/jun06t/scala-practice/scala-tour-example/src/main/scala",
+            "/Users/a13156/.go/src/github.com/jun06t/scala-practice/scala-tour-example/src/main/java",
+            "/Users/a13156/.go/src/github.com/jun06t/scala-practice/scala-tour-example/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Users/a13156/.sbt/boot/scala-2.12.7/lib/scala-library.jar"
+        ],
+        "out": "/Users/a13156/.go/src/github.com/jun06t/scala-practice/scala-tour-example/.bloop/scala-tour-example",
+        "classesDir": "/Users/a13156/.go/src/github.com/jun06t/scala-practice/scala-tour-example/.bloop/scala-tour-example/scala-2.12/classes",
+        "resources": [
+            "/Users/a13156/.go/src/github.com/jun06t/scala-practice/scala-tour-example/src/main/resources",
+            "/Users/a13156/.go/src/github.com/jun06t/scala-practice/scala-tour-example/target/scala-2.12/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.7",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/a13156/.sbt/boot/scala-2.12.7/lib/scala-library.jar",
+                "/Users/a13156/.sbt/boot/scala-2.12.7/lib/scala-compiler.jar",
+                "/Users/a13156/.sbt/boot/scala-2.12.7/lib/jline.jar",
+                "/Users/a13156/.sbt/boot/scala-2.12.7/lib/scala-reflect.jar",
+                "/Users/a13156/.sbt/boot/scala-2.12.7/lib/scala-xml_2.12.jar"
+            ],
+            "analysis": "/Users/a13156/.go/src/github.com/jun06t/scala-practice/scala-tour-example/target/streams/compile/bloopAnalysisOut/$global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre",
+                "options": [
+                    "-Duser.dir=/Users/a13156/.go/src/github.com/jun06t/scala-practice/scala-tour-example"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.7",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/a13156/.sbt/boot/scala-2.12.7/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/a13156/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.7-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
